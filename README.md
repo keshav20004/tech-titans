@@ -5,7 +5,7 @@ Our mission is to make every local business visible, searchable, and reachable â
 
 ---
 
-## ðŸš€ What We Do
+##  What We Do
 
 Most neighborhood shops are offline-only:
 - No website
