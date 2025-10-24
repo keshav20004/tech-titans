@@ -15,7 +15,7 @@ function App() {
   const plans = [
     {
       name: "Basic",
-      price: "$299",
+      price: "999",
       features: [
         "Single page website",
         "Product gallery (up to 20 items)",
@@ -26,7 +26,7 @@ function App() {
     },
     {
       name: "Standard",
-      price: "$499",
+      price: "1499",
       popular: true,
       features: [
         "Multi-page website",
@@ -39,7 +39,7 @@ function App() {
     },
     {
       name: "Pro",
-      price: "$799",
+      price: "1999",
       features: [
         "Custom multi-page website",
         "Unlimited product listings",
