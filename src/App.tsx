@@ -35,7 +35,8 @@ const RevealOnScroll = ({ children, className = "", delay = 0 }: { children: Rea
 
 // 2. CountUp: Animates numbers from 0 to target
 const CountUp = ({ end, duration = 2000, suffix = "" }: { end: number, duration?: number, suffix?: string }) => {
-  const [count,ZS] = useState(0);
+  // FIX: Changed 'ZS' to 'setCount' so the animation updater works
+  const [count, setCount] = useState(0);
   const ref = useRef<HTMLDivElement>(null);
   const [isVisible, setIsVisible] = useState(false);
 
